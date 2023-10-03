@@ -1,0 +1,18 @@
+.marca {
+    padding: 10px;
+    margin: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
+
+    width: 45px;
+    height: 45px;
+
+}
+
+.imgLogo {
+    width: 48px;
+    height: 48px;
+
+    margin-left: -2px;
+}
