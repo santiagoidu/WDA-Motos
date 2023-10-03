@@ -8,7 +8,9 @@ export default props => {
             <img src="https://i.ibb.co/T2m4Kjr/Sem-t-tulo.png" className="logoImg" alt="logo" />
             <div className="grid" >
             <Categoria categoria="2º Pele" />
+            <Categoria categoria="Botas" />
             <Categoria categoria="Calças" />
+            <Categoria categoria="Capacete" />
             <Categoria categoria="Jaquetas" />
             <Categoria categoria="Luvas" />
             <Categoria categoria="Meias" />
