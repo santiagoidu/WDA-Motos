@@ -25,6 +25,16 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
+p {
+    text-align: center;
+    display: block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
 /* @media screen and (max-width: 600px) {
     .Menu {
         width: 100% !important;
