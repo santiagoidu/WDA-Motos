@@ -3,7 +3,7 @@ import React from "react";
 import './Menu.css'
 import Marca from "../Marcas/Marca";
 
-export default props => {
+export default _ => {
     return(
         <div className="Menu" style={{backgroundColor: "#FFFFFF" }}>
            <img src="https://i.ibb.co/3sG5FqN/logoWDA.png" alt="logo" />
