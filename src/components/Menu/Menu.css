@@ -40,4 +40,10 @@
         height: 100px !important;
         margin-left: 25px;
     }
+    .grid {
+        .grid {
+            display: grid;
+            grid-template-columns: 2fr 2fr 2fr;
+        }
+    }
 }
