@@ -5,8 +5,8 @@ import Marca from "../Marcas/Marca";
 
 export default _ => {
     return(
-        <div className="Menu" style={{backgroundColor: "#FFFFFF" }}>
-           <img src="https://i.ibb.co/3sG5FqN/logoWDA.png" alt="logo" />
+        <div className="Menu" style={{backgroundColor: "#FFFFFF"}}>
+           <img src="https://i.ibb.co/3sG5FqN/logoWDA.png" className="imgLogoMenu" alt="logo" />
            <h3 className="logo">Marcas</h3>
            <div className="grid">
            <Marca className="marca" color="#F00001" url="/subMenuLS2" link="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQq02yJ7c2-VUhr3HyUmomP2OQPsWwvU84_Q6BEQA7cqcKgpO54kRWVsJLE0pu-EiciGvA&usqp=CAU" />

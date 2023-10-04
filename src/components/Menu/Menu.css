@@ -24,3 +24,20 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+
+@media screen and (max-width: 600px) {
+    .Menu {
+        width: 100% !important;
+        height: 100% !important;
+        margin-left: 10px;
+        border: none !important;
+    }
+    .logo {
+        margin-left: -15px;
+    }
+    .imgLogoMenu {
+        width: 270px !important;
+        height: 100px !important;
+        margin-left: 25px;
+    }
+}
