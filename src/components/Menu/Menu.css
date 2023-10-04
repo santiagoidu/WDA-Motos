@@ -25,7 +25,7 @@
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-@media screen and (max-width: 600px) {
+/* @media screen and (max-width: 600px) {
     .Menu {
         width: 100% !important;
         height: 100% !important;
@@ -46,4 +46,4 @@
             grid-template-columns: 2fr 2fr 2fr;
         }
     }
-}
+} */
