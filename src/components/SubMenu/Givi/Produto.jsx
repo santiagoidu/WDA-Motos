@@ -11,6 +11,9 @@ export default props => {
                 <Categoria categoria="Bagageiro" />
                 <Categoria categoria="Capacete" />
                 <Categoria categoria="Encosto" />
+                <Categoria categoria="Viseira" />
+                <Categoria categoria="Reparo" />
+
             </div>
         </div>
     )

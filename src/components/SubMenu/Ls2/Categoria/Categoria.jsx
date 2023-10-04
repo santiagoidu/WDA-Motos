@@ -6,7 +6,7 @@ import './Categoria.css'
 export default props => {
     return (
         <Link className="link" to={props.url}>
-        <div className="categoriaSanMarino" style={{backgroundColor: props.color}}>
+        <div className="categoria" style={{backgroundColor: props.color}}>
             <h4>{props.categoria}</h4>
         </div>
         </Link>
