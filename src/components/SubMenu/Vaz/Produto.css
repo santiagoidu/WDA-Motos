@@ -1,5 +1,5 @@
-.Menu {
-    width: 250px;
+.MenuVaz{
+    width: 285px;
     height: 600px;
 
     position: absolute;
@@ -11,5 +11,5 @@
      border-style:solid;
      border-radius: 10px;
      border-color: #000000;
-    background-color: #ffffff;
+    background-color: #fefefe;
 }
