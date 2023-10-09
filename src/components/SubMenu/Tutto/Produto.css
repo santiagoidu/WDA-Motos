@@ -1,0 +1,15 @@
+.MenuTutto {
+    width: 285px;
+    height: 600px;
+
+    position: absolute;
+     top: 50%; 
+     left: 50%; 
+     transform: 
+     translate(-50%, -50%); 
+
+     border-style:solid;
+     border-radius: 10px;
+     border-color: #000000;
+    background-color: #fefefe;
+}

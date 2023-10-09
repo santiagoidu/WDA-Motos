@@ -36,6 +36,8 @@ import ProdutoEBF from "./components/SubMenu/EBF/Produto";
 import ProdutoMormaii from "./components/SubMenu/Mormaii/Produto";
 //Fly
 import ProdutoFly from "./components/SubMenu/Fly/Produto"
+//Tutto
+import ProdutoTutto from "./components/SubMenu/Tutto/Produto"
 
 export default _ => {
     return (
@@ -93,7 +95,9 @@ export default _ => {
             {/* Fly menu e produtos */}
             <Route element={<ProdutoFly />} path="/subMenuFly" />
             <Route element={<ProdutoX11 />} path="/produtoX11" />
-
+            {/* Tutto menu e produtos */}
+            <Route element={<ProdutoTutto />} path="/subMenuTutto" />
+            <Route element={<ProdutoX11 />} path="/produtoX11" />
 
 
         </Routes>
