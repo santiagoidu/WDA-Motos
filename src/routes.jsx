@@ -4,6 +4,7 @@ import { Route, Routes } from "react-router-dom";
 import Menu from "./components/Menu/Menu";
 //LS2
 import ProdutoLs2 from "./components/SubMenu/Ls2/Produto"
+import CapaceteLs2 from "./components/SubMenu/Ls2/Categoria/Capacete/Capacete"
 //Peels
 import ProdutoPeels from "./components/SubMenu/Peels/Produto"
 //Bieffe
@@ -46,7 +47,7 @@ export default _ => {
             <Route element={<Menu />} path="/" exact />
             {/* LS2 sub menu e produtos */}
             <Route element={<ProdutoLs2 />} path="/subMenuLS2" />
-            <Route element={<ProdutoX11 />} path="/CapaceteLs2" />
+            <Route element={<CapaceteLs2 />} path="/subMenuLS2/CapaceteLs2" />
             {/* Peels sub menu e produtos */}
             <Route element={<ProdutoPeels />} path="/subMenuPeels" />
             <Route element={<ProdutoX11 />} path="/produtoX11" />
