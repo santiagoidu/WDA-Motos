@@ -1,0 +1,17 @@
+.categoriaEBF{
+    
+    margin: 5px;
+    border-style: solid;
+    border-color: #000000;
+    border-radius: 10px;
+
+    width: 79px;
+    height: 69px;
+    text-align: center;
+    background-color: #FFFFFF;
+}
+
+.link {
+    text-decoration: none;
+    color:#000000;
+}
