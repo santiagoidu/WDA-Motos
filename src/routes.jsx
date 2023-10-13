@@ -3,42 +3,42 @@ import { Route, Routes } from "react-router-dom";
 
 import Menu from "./components/Menu/Menu";
 //LS2
-import ProdutoLs2 from "./components/SubMenu/Ls2/Produto"
-import CapaceteLs2 from "./components/SubMenu/Ls2/Categoria/Capacete/Capacete"
+import ProdutoLs2 from "./pages/SubMenu/Ls2/Produto"
+import CapaceteLs2 from "./pages/SubMenu/Ls2/Categoria/Capacete/Capacete"
 //Peels
-import ProdutoPeels from "./components/SubMenu/Peels/Produto"
+import ProdutoPeels from "./pages/SubMenu/Peels/Produto"
 //Bieffe
-import ProdutoBieffe from "./components/SubMenu/Bieffe/Produto";
+import ProdutoBieffe from "./pages/SubMenu/Bieffe/Produto";
 //SanMarino
-import ProdutoSanMarino from "./components/SubMenu/SanMarino/Produto";
+import ProdutoSanMarino from "./pages/SubMenu/SanMarino/Produto";
 //Givi
-import ProdutoGivi from "./components/SubMenu/Givi/Produto";
+import ProdutoGivi from "./pages/SubMenu/Givi/Produto";
 //ProTork
-import ProdutoProTork from "./components/SubMenu/ProTork/Produto"
+import ProdutoProTork from "./pages/SubMenu/ProTork/Produto"
 //X11
-import ProdutoX11 from "./components/SubMenu/X11/Produto";
+import ProdutoX11 from "./pages/SubMenu/X11/Produto";
 //Norisk
-import ProdutoNorisk from "./components/SubMenu/Norisk/Produto";
+import ProdutoNorisk from "./pages/SubMenu/Norisk/Produto";
 //AGV
-import ProdutoAgv from "./components/SubMenu/Agv/Produto";
+import ProdutoAgv from "./pages/SubMenu/Agv/Produto";
 //Shark
-import ProdutoShark from "./components/SubMenu/Shark/Produto";
+import ProdutoShark from "./pages/SubMenu/Shark/Produto";
 //Helt
-import ProdutoHelt from "./components/SubMenu/Helt/Produto";
+import ProdutoHelt from "./pages/SubMenu/Helt/Produto";
 //RaceTech
-import ProdutoRaceTech from "./components/SubMenu/RaceTech/Produto";
+import ProdutoRaceTech from "./pages/SubMenu/RaceTech/Produto";
 //Vaz
-import ProdutoVaz from "./components/SubMenu/Vaz/Produto";
+import ProdutoVaz from "./pages/SubMenu/Vaz/Produto";
 //MT
-import ProdutoMT from "./components/SubMenu/MT/Produto";
+import ProdutoMT from "./pages/SubMenu/MT/Produto";
 //EBF
-import ProdutoEBF from "./components/SubMenu/EBF/Produto";
+import ProdutoEBF from "./pages/SubMenu/EBF/Produto";
 //Mormaii
-import ProdutoMormaii from "./components/SubMenu/Mormaii/Produto";
+import ProdutoMormaii from "./pages/SubMenu/Mormaii/Produto";
 //Fly
-import ProdutoFly from "./components/SubMenu/Fly/Produto"
+import ProdutoFly from "./pages/SubMenu/Fly/Produto"
 //Tutto
-import ProdutoTutto from "./components/SubMenu/Tutto/Produto"
+import ProdutoTutto from "./pages/SubMenu/Tutto/Produto"
 
 export default _ => {
     return (
